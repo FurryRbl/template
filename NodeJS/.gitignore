@@ -1,0 +1,8 @@
+# 日志
+*.log
+
+# 编辑器文件
+.DS_Store
+
+# Node模块
+node_modules
