@@ -1,0 +1,10 @@
+{
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"prettier.tabWidth": 4,
+	"prettier.semi": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": false
+}
