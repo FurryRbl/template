@@ -1,0 +1,12 @@
+{
+	"name": "萌系配色",
+	"version": "1.0.0",
+	"color": {
+		"cyan": "#50DCFF",
+		"blue": "#4CC3FF",
+		"green": "#65FFB2",
+		"puple": "#9965ff",
+		"yellow": "#fff265",
+		"blue_green": "#65FFE5"
+	}
+}
