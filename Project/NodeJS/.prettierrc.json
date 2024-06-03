@@ -2,8 +2,14 @@
 	"semi": true,
 	"tabWidth": 4,
 	"useTabs": true,
-	"singleQuote": false,
+	"endOfLine": "lf",
+	"printWidth": 120,
+	"singleQuote": true,
+	"jsxSingleQuote": true,
 	"trailingComma": "all",
+	"arrowParens": "avoid",
+	"bracketSameLine": true,
+	"htmlWhitespaceSensitivity": "strict",
 	"overrides": [
 		{
 			"files": "*.yml",
@@ -12,16 +18,18 @@
 			}
 		},
 		{
-			"files": "*.{html,vue}",
+			"files": "*.md",
 			"options": {
-				"printWidth": 200
+				"tabWidth": 2,
+				"useTabs": false
 			}
 		},
 		{
-			"files": "*.md",
+			"files": "*.xml",
 			"options": {
-				"useTabs": false,
-				"tabWidth": 2
+				"xmlSelfClosingSpace": true,
+				"xmlSortAttributesByKey": true,
+				"xmlQuoteAttributes": "double"
 			}
 		}
 	]
