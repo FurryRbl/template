@@ -23,14 +23,6 @@
 				"tabWidth": 2,
 				"useTabs": false
 			}
-		},
-		{
-			"files": "*.xml",
-			"options": {
-				"xmlSelfClosingSpace": true,
-				"xmlSortAttributesByKey": true,
-				"xmlQuoteAttributes": "double"
-			}
 		}
 	]
 }
