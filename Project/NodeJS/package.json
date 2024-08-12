@@ -7,7 +7,7 @@
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/FurryRbl/template.git"
+		"url": "git+https://github.com/FurryRbl/template.git"
 	},
 	"homepage": "https://github.com/FurryRbl/template",
 	"bugs": {
@@ -15,16 +15,16 @@
 	},
 	"author": {
 		"name": "SharpIce",
-		"email": "VupRbl@163.com",
+		"email": "SharpIce@SharpIce.top",
 		"url": "https://SharpIce.top"
 	},
 	"engines": {
 		"node": ">=20"
 	},
 	"scripts": {
+		"clean": "rimraf build",
 		"lint": "eslint --fix .",
-		"pre": "prettier . --write",
-		"clean": "rimraf build/"
+		"pre": "prettier . --write"
 	},
 	"devDependencies": {
 		"eslint": "^9.7.0",
