@@ -1,25 +1,43 @@
 {
 	"name": "name",
-	"version": "1.0.0",
-	"description": "描述",
-	"type": "module",
-	"license": "MPL-2.0",
 	"private": true,
+	"type": "module",
+	"version": "1.0.0",
+	"license": "MPL-2.0",
+	"description": "描述",
+	"repository": "github:FurryRbl/template",
 	"homepage": "https://github.com/FurryRbl/template",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/FurryRbl/template.git"
-	},
 	"bugs": {
-		"url": "https://github.com/FurryRbl/template/issues"
+		"email": "SharpIce@SharpIce.top",
+		"url": "https://github.com/FurryRbl/Duskflare/issues"
 	},
 	"author": {
 		"name": "SharpIce",
 		"email": "SharpIce@SharpIce.top",
 		"url": "https://SharpIce.top"
 	},
+	"funding": [
+		{
+			"type": "ko-fi",
+			"url": "https://ko-fi.com/SharpIce"
+		},
+		{
+			"type": "ifdian",
+			"url": "https://ifdian.net/@SharpIce"
+		}
+	],
 	"engines": {
 		"node": ">=20"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"onFail": "error"
+		},
+		"packageManager": {
+			"name": "pnpm",
+			"onFail": "error"
+		}
 	},
 	"scripts": {
 		"clean": "rimraf build",
