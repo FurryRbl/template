@@ -6,8 +6,8 @@ export default [
 	{
 		languageOptions: {
 			parserOptions: {
-				ecmaVersion: 'latest',
 				sourceType: 'module',
+				ecmaVersion: 'latest',
 			},
 		},
 		rules: {
