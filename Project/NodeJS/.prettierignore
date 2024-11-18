@@ -1,5 +1,8 @@
 # Node 模块
 /node_modules
 
+# pnpm
+/pnpm-lock.yaml
+
 # 构建输出
 /dist
