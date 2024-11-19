@@ -3,6 +3,3 @@
 
 # pnpm
 /pnpm-lock.yaml
-
-# 构建输出
-/dist
